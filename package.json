@@ -1,0 +1,66 @@
+{
+  "name": "ppt-demo",
+  "version": "0.0.1",
+  "description": "ppt演示小案例",
+  "main": "main.js",
+  "scripts": {
+    "flex": "webpack -w"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.2.3",
+    "@babel/core": "7.3.4",
+    "@babel/node": "7.2.2",
+    "@babel/plugin-proposal-object-rest-spread": "7.3.4",
+    "@babel/plugin-syntax-dynamic-import": "7.2.0",
+    "@babel/plugin-syntax-object-rest-spread": "7.2.0",
+    "@babel/plugin-transform-runtime": "7.3.4",
+    "@babel/preset-env": "7.3.4",
+    "@babel/runtime": "7.3.4",
+    "autoprefixer": "9.5.0",
+    "babel-eslint": "10.0.1",
+    "babel-loader": "8.0.5",
+    "babel-plugin-component": "1.1.1",
+    "babel-plugin-dynamic-import-node": "2.2.0",
+    "babel-plugin-import": "^1.12.0",
+    "babel-plugin-lodash": "3.3.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-es2015-modules-commonjs": "6.26.0",
+    "babel-preset-env": "1.6.1",
+    "css-loader": "^2.1.1",
+    "html-loader": "^0.5.5",
+    "htmlhint-loader": "^1.3.1",
+    "less": "^3.9.0",
+    "less-loader": "^4.1.0",
+    "lodash": "^4.17.15",
+    "lodash-es": "^4.17.15",
+    "postcss-loader": "^3.0.0",
+    "url-loader": "^1.1.2",
+    "vue": "2.6.10",
+    "vue-loader": "^15.7.0",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "2.6.10",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.9"
+  },
+  "repository": "git+https://github.com/dntzhang/cax.git",
+  "keywords": [
+    "canvas",
+    "web",
+    "weapp"
+  ],
+  "devEngines": {
+    "node": "6.x || 7.x || 8.x",
+    "npm": "3.x || 4.x || 5.x"
+  },
+  "author": "ztp",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dntzhang/cax/issues/new"
+  },
+  "homepage": "http://dntzhang.github.io/cax",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "file-loader": "^4.2.0",
+    "stylus-loader": "^3.0.2"
+  }
+}
