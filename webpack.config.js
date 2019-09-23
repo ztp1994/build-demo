@@ -48,7 +48,7 @@ const config = {
     entry: path.resolve(__dirname, AppDir, ENV + '/','main.js'),
     output: {
         // path: __dirname,
-        path: path.resolve(__dirname,'./examples/' + ENV + '/'),
+        path: path.resolve(__dirname,'./dist/' + ENV + '/'),
         filename: 'bundler.js',
         chunkFilename: '[id].js',
         publicPath: './',
