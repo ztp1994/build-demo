@@ -4,7 +4,10 @@
   "description": "ppt演示小案例",
   "main": "main.js",
   "scripts": {
-    "flex": "webpack -w"
+    "flex": "webpack -w",
+    "flex2": "webpack -w",
+    "grid": "webpack -w",
+    "svg": "webpack -w"
   },
   "devDependencies": {
     "@babel/cli": "7.2.3",
